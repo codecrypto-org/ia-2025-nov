@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-2-calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora web con HTML, CSS (Tailwind) y TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
