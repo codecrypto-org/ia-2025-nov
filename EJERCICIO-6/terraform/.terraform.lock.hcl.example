@@ -1,0 +1,4 @@
+# Este es un archivo de ejemplo del lock file de Terraform
+# El archivo real se generará automáticamente cuando ejecutes 'terraform init'
+# Este archivo asegura que todos los miembros del equipo usen las mismas versiones de providers
+

@@ -1,0 +1,27 @@
+# Ejemplo de archivo de variables para Terraform
+# Copia este archivo a terraform.tfvars y ajusta los valores
+
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Project Configuration
+project_name = "nextjs-app"
+environment  = "production"
+
+# EC2 Configuration
+instance_type = "t3.small"
+ssh_key_name  = "tu-key-pair-name" # Debe existir en AWS EC2
+
+# RDS Configuration
+db_instance_class = "db.t3.micro"
+db_name           = "nextjsdb"
+db_username       = "dbadmin"
+db_password       = "tu-password-seguro-aqui" # Cambiar por un password seguro
+
+# Domain
+domain_name = "tudominio.com"
+
+# Network Configuration (opcional - usa los valores por defecto)
+# vpc_cidr = "10.0.0.0/16"
+# availability_zones = ["us-east-1a", "us-east-1b"]
+
